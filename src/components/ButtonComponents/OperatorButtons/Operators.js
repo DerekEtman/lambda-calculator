@@ -13,7 +13,7 @@ const Operators = () => {
   // console.log(opArr);
 
   return (
-    <div>
+    <div className="opContainer">
       {operators.map((op, item) => {
         return <OperatorButton key={item} operatorProp={op.value}/>
       })}

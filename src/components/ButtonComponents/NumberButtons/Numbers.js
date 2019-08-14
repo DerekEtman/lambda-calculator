@@ -12,7 +12,7 @@ export const Numbers = () => {
   //   );
   // STEP 2 - add the imported data to state
   return (
-    <div>
+    <div className="numContainer">
       {numbers.map(item => (
         <div>
           <span key={item.toString()}>
